@@ -37,7 +37,22 @@ module.exports = {
         new HtmlWebPackPlugin({
             template: './src/index.html',
             filename: './index.html',
-           
+        }),
+        new HtmlWebPackPlugin({
+            template: './src/about.html',
+            filename: './about.html',
+        }),
+        new HtmlWebPackPlugin({
+            template: './src/contact.html',
+            filename: './contact.html',
+        }),
+        new HtmlWebPackPlugin({
+            template: './src/projects.html',
+            filename: './projects.html',
+        }),
+        new HtmlWebPackPlugin({
+            template: './src/skills.html',
+            filename: './skills.html',
         }),
         new MiniCssExtractPlugin({
             filename: '[name].css',

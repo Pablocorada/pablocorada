@@ -58,7 +58,28 @@ module.exports = {
         new HtmlWebPackPlugin({
             template: './src/index.html',
             filename: './index.html',
+            chunks: ['index']
            
+        }),
+        new HtmlWebPackPlugin({
+            template: './srcabout.html',
+            filename: './about.html',
+            chunks: ['about']
+        }),
+        new HtmlWebPackPlugin({
+            template: './src/contact.html',
+            filename: './contact.html',
+            chunks: ['contact']
+        }),
+        new HtmlWebPackPlugin({
+            template: './src/projects.html',
+            filename: './projects.html',
+            chunks: ['projects']
+        }),
+        new HtmlWebPackPlugin({
+            template: './src/skills.html',
+            filename: './skills.html',
+            chunks: ['skills']
         }),
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css',
