@@ -25,20 +25,20 @@ skillsList.forEach(skill => {
     let images = ``;
 
     skill.imgs.forEach((img,index) => {
-        images = images + `<img src="${img}" alt="${skill.skill} - ${index}" class="icon mx-2"/>`;
+        images = images + `<img src="${img}" alt="${skill.skill} - ${index}" title="${skill.skill} - ${index}" class="icon mx-2"/>`;
     });
 
     skillHTML = skillHTML + `    
-        <div class="row py-3">
-            <div class="col-12 col-sm-2 d-flex flex-wrap justify-content-center align-items-center">
+        <div class="row py-3 languages">
+            <div class="col-12 col-sm-2 col-lg-3 d-flex flex-wrap justify-content-center align-items-center">
                 ${images}
             </div>
-            <div class="col-12 col-sm-3 d-flex justify-content-around align-items-center">
+            <div class="col-12 col-sm-3 col-lg-4 d-flex justify-content-around align-items-center">
                 <p class="language my-2">
                     ${skill.skill}
                 </p>
             </div>
-            <div class="col-12 col-sm-7">
+            <div class="col-12 col-sm-7 col-lg-5">
                 <p>
                     ${skill.course}<br/>
                     <i>${skill.institution}</i>                           
@@ -53,15 +53,15 @@ skillsList.forEach(skill => {
 
 const skillsHTML = `
 
-    <h2 class="fs-1 fw-bold">
+    <h2>
         Habilidades y conocimientos
     </h2>
 
-    <p style="text-align: justify !important;" class="fs-3 mt-5 lh-lg">
+    <p class="mt-5">
      Gracias a mis estudios de la Formación Profesional, sumado a los cursos que he realizado, poseo varias habilidades informáticas que día a día voy puliendo para seguir progresando.
     </p>
 
-    <div class="fs-3 mt-5 lh-lg text-center w-100">
+    <div class="text-center mt-5 w-100">
         ${skillHTML}
     </div>
 

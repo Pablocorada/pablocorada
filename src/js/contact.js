@@ -14,7 +14,7 @@ const insertForm = () => {
 
         <div class="col-12 col-md-3 px-0"></div>
         <div class="col-12 col-md-9 px-0">
-            <h2 class="fs-1 fw-bold">
+            <h2>
                 Contacto
             </h2>
             <form class="row w-100 px-3 mt-4" action="https://formspree.io/f/mwkyvbae" method="POST">
