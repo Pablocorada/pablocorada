@@ -20,7 +20,7 @@ const insertartHeader = () => {
                     <hr />
                 </div>
                 <li class="col-12 col-sm-6 col-lg-3 nav-item my-1">
-                    <a class="nav-link active" href="about.html">
+                    <a class="nav-link active" href="./about.html">
                         Sobre mí
                     </a>
                 </li>
@@ -48,7 +48,7 @@ const insertartHeader = () => {
                         <hr />
                     </div>    
                     <li class="col-12 col-sm-6 col-lg-3 nav-item my-1">
-                        <a class="nav-link active" href="about.html">
+                        <a class="nav-link active" href="./about.html">
                             Sobre mí
                         </a>
                     </li>

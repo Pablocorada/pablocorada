@@ -62,7 +62,7 @@ module.exports = {
            
         }),
         new HtmlWebPackPlugin({
-            template: './srcabout.html',
+            template: './src/about.html',
             filename: './about.html',
             chunks: ['about']
         }),

@@ -1,9 +1,5 @@
 
 
-const form = `
-
-    
-`;
 
 const insertForm = () => {
 
