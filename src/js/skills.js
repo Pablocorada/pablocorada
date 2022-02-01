@@ -8,7 +8,7 @@ const sql = new Skill(['./assets/img/git.png','./assets/img/github.png'],'Git / 
 const git = new Skill(['./assets/img/mysql.png','./assets/img/Plsql.png'],'MySQL / PL-SQL','Bases de datos','GS - Desarrollo de Aplicaciones Web');
 
 
-const skillsList = [
+export const skillsList = [
     css,
     js,
     react,
